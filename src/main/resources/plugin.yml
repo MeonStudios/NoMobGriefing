@@ -1,0 +1,84 @@
+name: NoMobGriefing
+main: io.github.meonstudios.nomobgriefing.NoMobGriefing
+version: 0.2.5
+author: PinkNeonDinosaur
+api-version: 1.13
+
+commands:
+  nmg:
+     description: Shows help and info about the NoMobGriefin plugin.
+     usage: /nmg
+     aliases: [nomobgriefing]
+     
+permissions:
+  nmg.*:
+    description: Gives access to all NoMobGriefing commands.
+    children:
+      nmg.list: true
+      nmg.creeper: true
+      nmg.door: true
+      nmg.enderdragon: true
+      nmg.enderman: true
+      nmg.ghast: true
+      nmg.rabbit: true
+      nmg.ravager: true
+      nmg.sheep: true
+      nmg.silverfish: true
+      nmg.skeleton: true
+      nmg.snowgolem: true
+      nmg.tnt: true
+      nmg.tntminecart: true
+      nmg.trampling: true
+      nmg.turtle_egg: true
+      nmg.wither: true
+  nmg.list:
+    description: Allows the user to use the list command.
+    default: true
+  nmg.creeper:
+    description: Allows the user to enable/disable creepers blowing up blocks.
+    default: op
+  nmg.door:
+    description: Allows the user to enable/disable zombies destroying doors.
+    default: op
+  nmg.enderdragon:
+    description: Allows the user to enable/disable the enderdragon destroying blocks.
+    default: op
+  nmg.enderman:
+    description: Allows the user to enable/disable endermen picking up blocks.
+    default: op
+  nmg.ghast:
+    description: Allows the user to enable/disable ghasts blowing up blocks.
+    default: op
+  nmg.rabbit:
+    description: Allows the user to enable/disable rabbits eating crops.
+    default: op
+  nmg.ravager:
+    description: Allows the user to enable/disable ravagers breaking blocks.
+    default: op
+  nmg.sheep:
+    description: Allows the user to enable/disable sheep eating grass.
+    default: op
+  nmg.silverfish:
+    description: Allows the user to enable/disable silverfish entering/leaving blocks.
+    default: op
+  nmg.skeleton:
+    description: Allows the user to enable/disable skeletons destroying item frames etc.
+    default: op
+  nmg.snowgolem:
+    description: Allows the user to enable/disable snowgolems leaving snow trails.
+    default: op
+  nmg.tnt:
+    description: Allows the user to enable/disable tnt blowing up blocks.
+    default: op
+  nmg.tntminecart:
+    description: Allows the user to enable/disable tnt minecarts blowing up blocks.
+    default: op
+  nmg.trampling:
+    description: Allows the user to enable/disable mobs trampling farmland.
+    default: op
+  nmg.turtle_egg:
+    description: Allows the user to enable/disable zombies destroying turtle eggs.
+    default: op
+  nmg.wither:
+    description: Allows the user to enable/disable withers destroying blocks.
+    default: op
