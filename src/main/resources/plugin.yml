@@ -24,7 +24,6 @@ permissions:
       nmg.ravager: true
       nmg.sheep: true
       nmg.silverfish: true
-      nmg.skeleton: true
       nmg.snowgolem: true
       nmg.tnt: true
       nmg.tntminecart: true

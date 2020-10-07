@@ -32,7 +32,6 @@ public class MyCommandExecuter implements CommandExecutor, TabCompleter {
 		commands.put("ravager", new MobCommand("ravager", "Enables/disables ravagers from destroying blocks.", plugin));
 		commands.put("sheep", new MobCommand("sheep", "Enables/disables sheep eating grass blocks.", plugin));
 		commands.put("silverfish", new MobCommand("silverfish", "Enables/disables silverfish from entering and leaving (breaking) blocks.", plugin));
-		commands.put("skeleton", new MobCommand("skeleton", "Enables/disables skeletons from breaking entities (e.g. paintings, item frames).", plugin));
 		commands.put("snowgolem", new MobCommand("snowgolem", "Enables/disables snowgolems creating snowblocks.", plugin));
 		commands.put("tnt", new MobCommand("tnt", "Enables/disables tnt from destroying blocks.", plugin));
 		commands.put("tntminecart", new MobCommand("tntminecart", "Enables/disables tnt minecarts from destroying blocks.", plugin));
